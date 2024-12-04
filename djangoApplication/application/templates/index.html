@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<div class="jumbotron">
+  
+    
+    <div class="hero-text">
+        <h1 class="display-3">Welcome to our site </h1>
+        <p class="lead">I am learning web development through emobilis scholarship</p>
+        <hr class="my-lg-3 h-25">
+        <a class="btn btn-primary btn-sm" href="{% url 'about' %}" role="button">Learn more</a>  
+  
+    </div>
+</div>
+<section class="info-section">
+<div class="container">
+    <div class="info-card">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur at atque consequatur debitis deleniti, dignissimos dolore dolorem dolores eaque error ex fuga fugiat fugit incidunt, labore laudantium minus nihil nostrum pariatur perferendis porro quod ratione sint unde ut voluptas voluptate. Ab adipisci animi aperiam at atque consectetur culpa dolorum eaque ex facere facilis fuga, id illo impedit ipsa nemo odio pariatur praesentium provident quaerat quasi quibusdam quidem reprehenderit repudiandae rerum saepe ullam vitae! Ad alias aliquid aperiam architecto assumenda commodi dicta distinctio doloremque doloribus eos excepturi facere fugiat illum iure magni molestias natus possimus quisquam quos repellat rerum, sit veritatis. Adipisci animi architecto aspernatur, commodi consequatur distinctio eligendi esse facere id illo in iure maxime minus molestiae molestias natus officiis perferendis porro reprehenderit sequi soluta ut vel? Quidem, sunt!
+    </p>
+    <a href="{% url 'about' %}"><button class="btn btn-primary btn-sm">Learn more</button></a>
+        
+    </div>
+  
+    
+</div>
+
+</section>    
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores assumenda blanditiis distinctio dolore dolores ea eligendi excepturi, explicabo fugiat id illum maxime minima necessitatibus nisi non nostrum nulla omnis pariatur perspiciatis possimus praesentium provident quasi quis sed tempore temporibus unde vero vitae voluptates? Aperiam consequuntur, corporis dolor eligendi eos ipsa nobis non officia officiis recusandae sapiente, soluta totam veniam?</p>
+
+<div class="alert alert-success" role="alert">
+  A simple success alert—check it out!
+</div>
+
+{% endblock %}
+

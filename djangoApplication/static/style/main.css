@@ -1,0 +1,78 @@
+.card{
+   height: 600px;
+}
+.btn btn-primary {
+    margin-bottom: 60px;
+}
+h4,h1 {
+    text-align: center;
+}
+
+.with-margin{
+    margin: 2rem;
+}
+.row{
+    margin:2rem;
+}
+.carousel-item{
+    width:600px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.mission{
+    justify-content: center;
+}
+/*Index.html style*/
+.jumbotron {
+    background-image: url('../../static/images/slide1.jpg');
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
+}
+.hero-text{
+    text-align: center;
+    color:#000000;
+}
+
+.info-section {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+
+}
+.mission-container {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+
+}
+/*Footer*/
+.card-footer{
+    background-color: #f0f0f0;
+    padding:20px;
+    text-align: center;
+
+}
+.nav-links ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-links li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav-links a{
+    color: #333;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    text-decoration: underline;
+}
+
+
