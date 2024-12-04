@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    
+{% if messages %}
+    
+    {% for message in messages %}
+        <div class="alert {{ message.tags }}">{{ message }}</div>
+    {% endfor %}
+    
+{% endif %}    
+<h4 xmlns:margin="http://www.w3.org/1999/xhtml">About TechHub</h4>
+<div class="main-content" style="height: 300vh; ">
+<h4>Meet our team</h4>
+  <div class="container">
+    <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="../../static/images/slide3.jpg" alt="Card image cap" style="width:100%;">
+        <div class="card-body" >
+          <h5 class="card-title">About Django</h5>
+          <p class="card-text">Django is a high-level Python web framework that enables rapid development of secure and maintainable websites. It's designed to simplify the web development process by providing a robust set of tools and features out of the box.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="../../static/images/slide2.jpg" alt="Card image cap" style="width:100%;">
+        <div class="card-body">
+          <h5 class="card-title">About Flask</h5>
+          <p class="card-text">Flask is a lightweight Python web framework that provides the essentials for building web applications. It's flexible and allows you to customize your application to your specific needs.</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="../../static/images/slide1.jpg" alt="Card image cap" style="width:100%;">
+        <div class="card-body">
+          <h5 class="card-title">About FastAPI</h5>
+          <p class="card-text">FastAPI is a modern, high-performance web framework for building APIs with Python. It's designed to be fast, efficient, and easy to use.</p>
+          <a href="#" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="mission-container">
+        <div class="mission" >
+            <h4>Why Choose Us</h4>
+            <p><i></i><br>
+                 Django: Empowering Developers to Build Web Applications with Elegance and Efficiency</p>
+            
+        </div>
+
+</div>
+    <div>
+    <h4>Student List</h4>
+    <table class="table table-hover table-bordered table-striped w-75 with-margin align-content-center" style="padding:20px;">
+        <thead class="thead-dark">
+        <tr>
+            <th>PHOTO</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>ADMISSION NUMBER</th>
+            <th>GENDER</th>
+            <th>COURSE</th>
+            <!--Update button-->
+            <th>EDIT</th>
+            <th>DELETE</th>
+         </tr> 
+        </thead>
+        <tbody>
+        {% for student in data %}
+            <tr>
+            <td>
+            {% if student.image %}
+                <img  src="{{ student.image.url }}" alt="{{ student.name }}" class="img-thumbnail" style="height:60px; width:60px;">
+            
+            {% else %}
+                <img src="{% static 'images/placeholder.png' %}" alt="No image" class="img-thumbnail" style="height:60px; width:60px;">
+                
+            {% endif %}
+            
+            
+            
+            </td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.age }}</td>
+            <td>{{ student.admission_number }}</td>
+            <td>{{ student.gender}}</td>
+            <td>{{ student.course }}</td>
+            <td><a href="{% url 'edit' student.id %}" class="btn btn-sm btn-success" type="button"><i class="fas fa-edit"></i>EDIT STUDENT</a></td>
+            <td><a href="{% url 'delete' student.id  %}" class="btn btn-sm btn-danger" type="button" onclick="return confirm('Are you sure you want to delete the student?')"> <i class="fas fa-trash-alt"></i> DELETE BUTTON</a></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66cdf39d-a9b7-4646-b1a1-c08f44e9f4ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/.idea/SymonOrchardsFarm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/products/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/products/templates/contact_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/products/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/aos/aos.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/aos/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/aos/aos.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/aos/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/aos/aos.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap-icons/bootstrap-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap-icons/bootstrap-icons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap-icons/bootstrap-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap-icons/bootstrap-icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap-icons/fonts/bootstrap-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap-icons/fonts/bootstrap-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/glightbox/css/glightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/glightbox/css/glightbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/glightbox/js/glightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/glightbox/js/glightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/swiper/swiper-bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/swiper/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/css/swiper/swiper-bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/images/SymonOrchard-farm-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/images/hero-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/images/img_sq_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SymonOrchardsFarm/static/images/page-title-bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/css/prb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmProject/static/image/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/.idea/SymonOrchard.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/templates/blog-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/templates/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/templates/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/templates/testimonials.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmproject/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmproject/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmproject/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmproject/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/orchardfarmproject/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/aos/aos.cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/aos/aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/aos/aos.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/aos/aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/aos/aos.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/bootstrap-icons/aos/aos.cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/bootstrap-icons/aos/aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/bootstrap-icons/aos/aos.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/bootstrap-icons/aos/aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/bootstrap-icons/aos/aos.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/bootstrap-icons/bootstrap-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/bootstrap-icons/bootstrap-icons.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/bootstrap-icons/bootstrap-icons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/bootstrap-icons/bootstrap-icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/bootstrap-icons/fonts/bootstrap-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/bootstrap-icons/fonts/bootstrap-icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/css/prb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/glightbox/css/glightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/glightbox/css/glightbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/glightbox/js/glightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/glightbox/js/glightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/blog-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/blog-author.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/blog-inside-post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/blog-recent-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/blog-recent-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/blog-recent-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/blog-recent-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/blog-recent-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/comments-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/comments-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/comments-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/comments-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/comments-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/blog/comments-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/hero_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/hero_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/hero_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/hero_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/hero_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/img_long_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/img_sq_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/img_sq_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/img_sq_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/img_sq_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/img_sq_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/img_sq_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/page-title-bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/team/team-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/team/team-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/team/team-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/team/team-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/testimonials/testimonials-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/testimonials/testimonials-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/testimonials/testimonials-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/images/img/testimonials/testimonials-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/php-email-form/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/swiper/swiper-bundle.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/swiper/swiper-bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymonOrchard/static/swiper/swiper-bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject" beforeDir="false" afterPath="$PROJECT_DIR$/../farmProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../farmProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../farmProject/symon_orchards/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../farmProject/symon_orchards/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../farmProject/symon_orchards/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../farmProject/symon_orchards/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/products/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/products/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/products/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/products/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/products/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/products/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/products/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/products/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/products/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/products/templates/product_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/products/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/products/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/products/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../farmProject/symon_orchards/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/symon_orchards/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/symon_orchards/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../farmProject/symon_orchards/symon_orchards/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/symon_orchards/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../farmProject/symon_orchards/symon_orchards/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/symon_orchards/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../farmProject/symon_orchards/symon_orchards/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../farmProject/symon_orchards/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../farmProject/symon_orchards/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../farmProject/symon_orchards/wsgi.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2oNq5sn1t1aJ17HNTPRkU5zXQyH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.djangoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bridget/emobilisWebDevelopment/schoolWebsite&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/static/style" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="djangoApplication" type="Python.DjangoServer" factoryName="Django server">
+      <module name="djangoApplication" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="myproject.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.180" />
+        <option value="bundled-python-sdk-85c76a3b01b3-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66cdf39d-a9b7-4646-b1a1-c08f44e9f4ff" name="Changes" comment="" />
+      <created>1730720201818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730720201818</updated>
+      <workItem from="1730720203354" duration="4779000" />
+      <workItem from="1730807089813" duration="1661000" />
+      <workItem from="1730809682136" duration="3809000" />
+      <workItem from="1730893472934" duration="6516000" />
+      <workItem from="1730900902316" duration="602000" />
+      <workItem from="1730906449978" duration="16676000" />
+      <workItem from="1731066787298" duration="8108000" />
+      <workItem from="1731245992384" duration="194000" />
+      <workItem from="1731246369175" duration="2449000" />
+      <workItem from="1731248834570" duration="4729000" />
+      <workItem from="1731263506888" duration="765000" />
+      <workItem from="1731325036743" duration="8582000" />
+      <workItem from="1731411697031" duration="7388000" />
+      <workItem from="1731497846212" duration="641000" />
+      <workItem from="1731498754265" duration="10183000" />
+      <workItem from="1731916339092" duration="376000" />
+      <workItem from="1731918368679" duration="5890000" />
+      <workItem from="1731944122728" duration="163000" />
+      <workItem from="1731956984573" duration="1113000" />
+      <workItem from="1732020246748" duration="42000" />
+      <workItem from="1732098100873" duration="23000" />
+      <workItem from="1732098563824" duration="8169000" />
+      <workItem from="1732167427177" duration="2054000" />
+      <workItem from="1732199314679" duration="5515000" />
+      <workItem from="1732282064567" duration="2798000" />
+      <workItem from="1732647206348" duration="80000" />
+      <workItem from="1732647666359" duration="1158000" />
+      <workItem from="1732648864976" duration="290000" />
+      <workItem from="1732649448464" duration="60000" />
+      <workItem from="1732650472348" duration="26000" />
+      <workItem from="1732650634635" duration="29000" />
+      <workItem from="1733299664365" duration="2841000" />
+      <workItem from="1735651435125" duration="91000" />
+      <workItem from="1735706928738" duration="528000" />
+      <workItem from="1736279685603" duration="562000" />
+      <workItem from="1736911947573" duration="2019000" />
+      <workItem from="1736918920531" duration="3919000" />
+      <workItem from="1736996049764" duration="234000" />
+      <workItem from="1737057050366" duration="585000" />
+      <workItem from="1737098973784" duration="1412000" />
+      <workItem from="1737110852069" duration="549000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
