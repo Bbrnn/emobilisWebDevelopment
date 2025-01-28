@@ -16,6 +16,39 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
+
+
+import environ
+env = environ.Env()
+environ.Env.read_env()
+# Set the path for the .env file
+
+env_path = Path(__file__).resolve().parent.parent / '.env'
+print(f'.env file path: {env_path}')  # This will print the absolute path
+
+env.read_env(env_path)
+# Now check if the variables are being read
+#print(env('DATABASE_NAME'))
+
+# Access the environment variables
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': env('DATABASE_NAME'),
+        'USER': env('DATABASE_USER'),
+        'PASSWORD': env('DATABASE_PASSWORD'),
+        'HOST': env('DATABASE_HOST'),
+        'PORT': env('DATABASE_PORT'),
+    }
+}
+
+EMAIL_HOST_USER = env('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
+EMAIL_HOST = env('EMAIL_HOST')
+EMAIL_PORT = env('EMAIL_PORT')
+EMAIL_USE_TLS = env.bool('EMAIL_USE_TLS', default=True)
+
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
@@ -75,16 +108,9 @@ WSGI_APPLICATION = 'SymonOrchardsFarm.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'SymonOrchard',
-        'USER': 'root',
-        'PASSWORD': 'n3w_p@ss0rQ',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
-}
+# Database configuration using environment variables
+
+
 
 
 # Password validation
@@ -126,15 +152,11 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static',
 
 ]
+# For flashing messages
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'  # Use your email provider's SMTP server
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'ngugihyee@gmail.com'
-EMAIL_HOST_PASSWORD = 'symon2003'
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
-CONTACT_EMAIL = 'ngugihyee@gmail.com'  # Email to receive contact form submissions
+
+
 
 
 # Default primary key field type
@@ -143,3 +165,4 @@ CONTACT_EMAIL = 'ngugihyee@gmail.com'  # Email to receive contact form submissio
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
+#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

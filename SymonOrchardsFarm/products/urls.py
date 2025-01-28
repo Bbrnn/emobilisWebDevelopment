@@ -24,13 +24,16 @@ from  products import views
 
 
 urlpatterns = [
+    path('register/', views.user_register, name='user_register'),
+
+    path('login/', views.user_login, name='login'),
 
     path('index/', views.index, name='index'),
     path('about/', views.about, name='about'),
     path('contact/', views.contact, name='contact'),
     path('product_list/', views.product_list, name='product_list'),
     path('contact/', views.contact_view, name='contact'),
-    path('contact/success/', views.contact_success, name='contact_success'),
+    #path('contact/success/', views.contact_success, name='contact_success'),
     path('admin/', admin.site.urls)
 
 
